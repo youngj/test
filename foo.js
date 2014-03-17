@@ -12,4 +12,4 @@ module.exports = {
 
 console.log('name: ' + project.name);
 console.log('content: ' + content);
-//sendReply("wtf?");
+sendReply("wtf?");
