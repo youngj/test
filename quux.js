@@ -10,3 +10,5 @@ exports.ghi = function(x) {
 
 //sendSMS("123123", "hello");
 console.log(httpClient.request("http://www.google.com").content.length);
+console.log("content = " content);
+console.log("word1 = " word1);
