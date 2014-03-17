@@ -4,4 +4,4 @@ exports.def = function() {
   return project.name;  
 };
 
-exports.ghi = console.log;
+//exports.ghi = console.log;
