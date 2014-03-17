@@ -8,4 +8,5 @@ exports.ghi = function(x) {
   console.log(x);
 };
 
-sendSMS("123123", "hello");
+//sendSMS("123123", "hello");
+console.log(httpClient.request("http://www.google.com").content.length);
