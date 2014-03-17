@@ -7,3 +7,5 @@ exports.def = function() {
 exports.ghi = function(x) {
   console.log(x);
 };
+
+sendSMS("123123", "hello");
