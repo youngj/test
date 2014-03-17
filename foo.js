@@ -11,4 +11,5 @@ module.exports = {
 
 
 console.log('name: ' + project.name);
-sendReply("wtf?");
+console.log('content: ' + content);
+//sendReply("wtf?");
