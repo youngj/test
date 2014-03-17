@@ -1,8 +1,7 @@
 
-
 module.exports = {
   
-  quux: require("./quux"),
+  quux: require("./quux.js?v3"),
   
   foo: function(x) { return x + 2; },
   BAR: 13,
