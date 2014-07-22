@@ -1,3 +1,4 @@
+/*
 module.exports = {
   
   quux: require("./quux.js?v3"),
@@ -8,6 +9,7 @@ module.exports = {
     return project.getGroup(name);
   }
 };
+*/
 
 
 console.log('name: ' + project.name);
