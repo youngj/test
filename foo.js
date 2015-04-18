@@ -1,9 +1,9 @@
 module.exports = {
   
-  quux: require("./quux.js?v4"),
+  quux: require("./quux"),
   
   foo: function(x) { return x + 2; },
-  BAR: 13,
+  BAR: 14,
   baz: function(name) {
     return project.getGroup(name);
   }
