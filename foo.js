@@ -6,5 +6,8 @@ module.exports = {
   BAR: 25,
   baz: function(name) {
     return project.getGroup(name);
+  },
+  hmm: function() {
+    throw new Error('hmm');
   }
 };
