@@ -9,5 +9,17 @@ module.exports = {
   },
   hmm: function() {
     throw new Error('hmm');
+  },
+  oops: function(heapSpace) {
+    var x = [];
+    var i = 0;
+    while (true)
+    {
+        if (heapSpace)
+        {
+          x.push({a:"i" + i, b: i});
+        }
+        i++; 
+    }
   }
 };
