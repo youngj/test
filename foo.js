@@ -13,6 +13,10 @@ function oops(heapSpace) {
 
 module.exports = {
   
+  test: function() {
+    return module;
+  },
+  
   quux: require("./quux"),
   
   foo: function(x) { return x + 2; },
