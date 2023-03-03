@@ -1,3 +1,3 @@
 module.exports = { 
-  x: function() { throw new Error('example'); } 
+  x: function(url) { httpClient.request(url); } 
 };
