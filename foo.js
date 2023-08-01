@@ -20,7 +20,7 @@ module.exports = {
   quux: require("./quux"),
   
   foo: function(x) { return x + 2; },
-  BAR: 42,
+  BAR: 41 + 1,
   baz: function(name) {
     return project.getGroup(name);
   },
