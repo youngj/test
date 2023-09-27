@@ -11,11 +11,10 @@ function oops(heapSpace) {
   }
 }
 
-/*
 function xxx()
 {
   require("./quux").jkl();
-} */
+}
 
 module.exports = {
   
