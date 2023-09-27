@@ -11,10 +11,11 @@ function oops(heapSpace) {
   }
 }
 
+/*
 function xxx()
 {
   require("./quux").jkl();
-}
+} */
 
 module.exports = {
   
@@ -35,15 +36,15 @@ module.exports = {
   },
   oops: oops,
   oops2: function(heapSpace) {
-  var x = [];
-  var i = 0;
-  while (true)
-  {
-      if (heapSpace)
-      {
-        x.push({a:"i" + i, b: i});
-      }
-      i++; 
+    var x = [];
+    var i = 0;
+    while (true)
+    {
+        if (heapSpace)
+        {
+          x.push({a:"i" + i, b: i});
+        }
+        i++; 
+    }
   }
-}
 };
