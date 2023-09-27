@@ -11,6 +11,11 @@ function oops(heapSpace) {
   }
 }
 
+function xxx()
+{
+  require("./quux").jkl();
+}
+
 module.exports = {
   
   test: function() {
@@ -18,7 +23,8 @@ module.exports = {
   },
   
   quux: require("./quux"),
-  
+  xxx: xxx,
+
   foo: function(x) { return x + 2; },
   BAR: 41 + 1,
   baz: function(name) {
